@@ -1,0 +1,27 @@
+{
+  "name": "turno",
+  "version": "1.0.0",
+  "description": "Sistema de Gestão de Turnos",
+  "scripts": {
+    "build-css": "tailwindcss -i ./src/input.css -o ./src/output.css",
+    "watch-css": "tailwindcss -i ./src/input.css -o ./src/output.css --watch",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "gestao",
+    "turnos",
+    "php",
+    "tailwindcss"
+  ],
+  "author": "Seu Nome ou Nome da Empresa",
+  "license": "ISC",
+  "devDependencies": {
+    "@tailwindcss/forms": "^0.5.10",
+    "autoprefixer": "^10.4.21",
+    "postcss": "^8.5.3",
+    "tailwindcss": "^4.1.7"
+  },
+  "dependencies": {
+    "@tailwindcss/cli": "^4.1.7"
+  }
+}
