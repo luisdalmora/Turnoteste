@@ -51,6 +51,9 @@ $nomeUsuarioLogado = $_SESSION['usuario_nome_completo'] ?? 'Usuário';
         <a href="gerenciar_colaboradores.php" class="flex items-center px-3 py-2.5 rounded-lg hover:bg-blue-500 hover:text-white transition-colors text-sm">
           <i data-lucide="users" class="w-5 h-5 mr-3"></i> Colaboradores
         </a>
+        <a href="gerador_senhas.php" class="flex items-center px-3 py-2.5 rounded-lg hover:bg-blue-500 hover:text-white transition-colors text-sm">
+        <i data-lucide="key-round" class="w-5 h-5 mr-3"></i> Gerador de Senhas
+         </a>
       </nav>
       <div class="p-2 border-t border-white/10">
         <div class="px-2 py-1">

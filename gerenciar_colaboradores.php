@@ -85,15 +85,13 @@ $csrfTokenColabManage = $_SESSION['csrf_token_colab_manage'];
             </a>
             <a href="gerenciar_colaboradores.php" class="flex items-center px-3 py-2.5 rounded-lg bg-blue-600 text-white font-medium text-sm">
               <i data-lucide="users" class="w-5 h-5 mr-3"></i> Colaboradores
+             <a href="gerador_senhas.php" class="flex items-center px-3 py-2.5 rounded-lg hover:bg-blue-500 hover:text-white transition-colors text-sm">
+             <i data-lucide="key-round" class="w-5 h-5 mr-3"></i> Gerador de Senhas
+             </a>
             </a>
           </nav>
           <div class="p-2 border-t border-white/10">
-            <div class="px-2 py-1">
-                <a href="google_auth_redirect.php" class="flex items-center justify-center w-full px-3 py-2 mb-1.5 rounded-lg bg-green-500 hover:bg-green-600 text-white font-medium transition-colors text-sm" id="connect-gcal-btn" style="display: none;">
-                    <i data-lucide="link" class="w-4 h-4 mr-2"></i> Conectar Google
-                </a>
 
-            </div>
             <div class="px-2 py-1">
                 <a href="logout.php" id="logout-link" class="flex items-center justify-center w-full px-3 py-2 rounded-lg bg-red-500 hover:bg-red-600 text-white font-medium transition-colors text-sm">
                     <i data-lucide="log-out" class="w-4 h-4 mr-2"></i> Sair
