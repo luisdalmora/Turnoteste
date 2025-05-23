@@ -3,9 +3,9 @@
 
 // Definição das variáveis de conexão para MySQL
 // Substitua pelos seus dados de conexão MySQL
-$db_servername_mysql = "localhost"; // Endereço do servidor MySQL (geralmente localhost)
-$db_username_mysql   = "sa";       // Nome de usuário do MySQL
-$db_password_mysql   = "SA_0bjetiva";         // Senha do MySQL
+$db_servername_mysql = "ballast.proxy.rlwy.net:37421"; // Endereço do servidor MySQL (geralmente localhost)
+$db_username_mysql   = "root";       // Nome de usuário do MySQL
+$db_password_mysql   = "MFIuQYEcBgVYKyAxMIjwFzkiyPSRcJff";         // Senha do MySQL
 $db_database_mysql   = "simposto";      // Nome do banco de dados MySQL
 
 // Tentativa de estabelecer a conexão com o banco de dados MySQL
